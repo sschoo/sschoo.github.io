@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Ulysses4ever.github.io : Personal HomePage" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Ulysses4ever.github.io</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/ulysses4ever">View on GitHub</a>
-
-          <h1 id="project_title">Ulysses4ever.github.io</h1>
-          <h2 id="project_tagline">Personal HomePage</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a name="ulysses4evergithubio" class="anchor" href="#ulysses4evergithubio"><span class="octicon octicon-link"></span></a>ulysses4ever.github.io</h1>
-
+---
+layout: default
+title: Personal HomePage
+---
 <p>Personal HomePage</p>
 
 <p>So far, please see <a href="http://mmcs.sfedu.ru/%7Eulysses/" title="Title? Naugh...">my department's home page of mine</a>.</p>
@@ -43,7 +15,11 @@
       </footer>
     </div>
 
-    
-
-  </body>
-</html>
+<p>My blogging experiments
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
