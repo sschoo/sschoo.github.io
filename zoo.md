@@ -131,7 +131,7 @@ layout: default
 
 Довольно интересное животное — [сурикат](http://ru.wikipedia.org/wiki/%D0%A1%D1%83%D1%80%D0%B8%D0%BA%D0%B0%D1%82). О нём известно, что в разное время суток он издаёт разные звуки. Эта особенность была реализована в классе `MaverickMeerkat`: [заголовочный файл](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/Meerkat.h), библиотека с реализацией функций-членов:
 
-<div align="center">[win32@x86](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/Meerkat.lib) / [win32@x86-64](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/Meerkat64.lib) / [linux@x86](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/libmeerkat.a) / [linux@x86-64](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/libmeerkat64.a).</div>
+[win32@x86](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/Meerkat.lib) / [win32@x86-64](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/Meerkat64.lib) / [linux@x86](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/libmeerkat.a) / [linux@x86-64](http://mmcs.sfedu.ru/~ulysses/Edu/IT211/zoo/libmeerkat64.a)
 
 (В классах используются 32-битные версии ОС. Под Windows библиотека компилировалась на Visual C++ 2013 и с другими версиями компилятора работать не будет.) Заметьте, что если сохранить файл библиотеки и заголовочный файл в корне проекта, то для подключения библиотеки будет достаточно лишь указать опцию «Компоновщик» — «Ввод» в настройках проекта.
 
